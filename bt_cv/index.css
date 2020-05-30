@@ -1,0 +1,273 @@
+body {background: #525659;}
+
+.cvo_body{
+    margin:0 auto;
+    width:210mm;
+    position:relative;
+    font-family:'RobotoCondensed', Arial, sans-serif;
+    font-size:14px;
+    line-height:18px;
+    background: #ffffff;
+    display: block;
+    min-height: 260mm;
+}
+
+.col_left{
+    width:30%;
+    color:#ffffff;
+    float:left;
+    background:#37474E;
+    min-height: 260mm;
+}
+
+.col_left .cvo_block{
+    width:100%;
+    padding:5px 12px 5px 12px;
+}
+
+.cvo_profile_avatar_wraper{
+    padding:10px 0;
+    text-align:center;
+}
+
+.col_left .cvo_block_title{
+    margin:0 0 10px 5px;
+    font-size:20px;
+    line-height:32px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.cvo_profile_avatar_wrapper img{
+    -webkit-border-radius: 50%;
+    width: 80%;
+}
+
+.profile_contact_wrapper div{
+    margin: 5px 5px 5px 10px;
+}
+
+.col_left .cvo_block_title span{
+    display:inline-block;
+    padding-right:5px;
+    width:100%;
+    vertical-align:middle;}
+
+.col_left #cvo_profile{
+    width:100%;
+    padding:0;
+    margin-top:0;}
+
+.profile_title_wrapper{
+    text-align:center;
+    padding:10px 3px;
+    background-color:#263238;
+}
+
+.cvo_profile_fullname{
+    margin-top:5px;
+    font-size:22px;
+    font-weight:bold;
+    width:100%;
+    line-height:34px;
+    display:inline-block;
+    text-transform:uppercase;
+}
+
+.cvo_profile_avatar{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+}
+
+.profile_contact_wraper{
+    width:90%;
+    margin:10px auto;
+    padding-top:10px;
+}
+
+.profile_contact_wraper div{
+    padding:5px 0;
+}
+
+.profile_contact_wraper i.fa{
+    width:19px;
+    height:19px;
+    background-color:#7c7a79;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    display:inline-block;
+    text-align:center;
+    font-size:12px;
+    line-height:20px;
+}
+
+.profile_contact_wraper span{
+    padding-left:3px;
+    width:188px;
+    color:#ffffff;
+    vertical-align:top;
+    display:inline-block;
+}
+
+.profile_contact_wraper span .cvo_profile_email{
+    word-break:break-all;
+}
+
+.cvo_skillrate{
+    padding-left:0;
+    padding-right:0;
+}
+
+.cvo_skillrate{
+    padding-left:0;
+}
+
+.skillrate_table .row{
+    margin-bottom:10px;
+    color:#ffffff;
+}
+
+.cvo_skillrate_title{
+    width:100%;
+    display:inline-block;
+}
+
+.cvo_interest{
+    padding-left:0;
+    padding-right:0;
+}
+
+.interest_table{
+    padding-left:20px;
+}
+
+.interest_table .row{
+    margin-bottom:15px;
+    color:#ffffff;
+}
+
+.interest_table li{
+    width:100%;
+    list-style-type:circle;
+}
+
+.cvo_interest_details{
+    width:100%;
+    vertical-align:top;
+}
+
+.col_right{
+    width:70%;
+    float:right;
+    color:#444444;
+    min-height:560px;
+    padding-top:1px;    
+}
+
+.group_col_right{
+    padding: 10px 5px 5px 10px;
+}
+
+.col_right .cvo_block{
+    width:100%;
+}
+
+.col_right .cvo_block_title{
+    margin:0 0 10px 0;
+    font-size:20px;
+    line-height:32px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.col_right .cvo_block_title span:nth-child(2){
+    width:440px;
+    vertical-align:middle;
+}
+
+.col_right .cvo_block_title i.fa{
+    background-color:#263238;
+    color:#ffffff;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%
+    ;text-align:center;
+    width:40px;
+    height:40px;
+    vertical-align:middle;
+    padding-top:10px;
+    margin-right:5px;
+}
+
+.col_right .cvo_block_title span{
+    color:#263238;
+    display:inline-block;
+    padding-right:5px;
+}
+
+.col_right .row{
+    margin:15px 0;
+}
+
+.row_title{
+    margin-bottom:5px;
+    width:100%;
+}
+
+.row_details{
+    margin-top:8px;
+}
+
+.cvo_education_school_wraper{
+    width:73%;
+    padding-right:5px;
+    text-transform:uppercase;
+    text-align:left;
+    font-weight:bold;
+    color:#414142;
+    float:left;}
+
+.cvo_education_school{
+    width:100%;
+}
+
+.cvo_education_time{
+    width:27%;
+    font-size:0.9em;
+    font-weight:bold;
+    text-align:right;
+    float:right;
+    text-transform:uppercase;
+}
+
+.cvo_education_title{
+    color:#414142;
+    width:100%;
+}
+
+.cvo_experience_company_wraper{
+    width:73%;
+    padding-right:5px;
+    text-transform:uppercase;
+    text-align:left;
+    font-weight:bold;
+    color:#414142;
+    float:left;
+}
+
+.cvo_experience_company{
+    width:100%;
+}
+
+.cvo_experience_time{
+    width:27%;
+    font-size:0.9em;
+    font-weight:bold;
+    text-align:right;
+    float:right;
+    text-transform:uppercase;
+}
+
