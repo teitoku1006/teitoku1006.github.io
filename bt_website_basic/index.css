@@ -1,7 +1,7 @@
 .header{
     background-image: url(./img/apple-store.jpg);
     background-position: left 50% top 45%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .row{
