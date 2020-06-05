@@ -23,16 +23,15 @@
     overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
-.img-hover-zoom img{
+.img-hover-zoom-1 img{
     max-height: 200px;
-    transition: transform .5s ease;
     z-index: 50;
 }
 
-.img-hover-zoom:hover .img-top{    
+.img-hover-zoom-1:hover .img-top{    
     display: block !important;
 }
-.img-hover-zoom:hover .img-bot{    
+.img-hover-zoom-1:hover .img-bot{    
     display: none !important;
 }
 
@@ -49,3 +48,17 @@
     margin: 0;
     text-align: center;
 }
+
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+.img-hover-zoom img{
+    max-height: 200px;
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
