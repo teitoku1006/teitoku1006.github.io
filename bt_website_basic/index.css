@@ -4,13 +4,12 @@
 }
 
 .row{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .col-sm-4{
-    border: solid black 1px;
-    height: 280px;
+    height: 350px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -30,4 +29,9 @@
 
 .img-hover-zoom img:hover{
     transform: scale(1.2);
+}
+
+.card-footer{
+    margin: 0;
+    text-align: center;
 }
