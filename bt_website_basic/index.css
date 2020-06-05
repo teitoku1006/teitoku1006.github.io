@@ -28,6 +28,7 @@
     z-index: 50;
 }
 
+.w1280 {width: 1280px !important;}
 .img-hover-zoom-1:hover .img-top{    
     display: block !important;
 }
